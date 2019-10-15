@@ -18,6 +18,7 @@ if last == "betty"
   puts "show" if "show".start_with? current
   puts "what" if "what".start_with? current
   puts "convert" if "convert".start_with? current
+  puts "unzip" if "unzip".start_with? current
 end
 
 if last == "count"
