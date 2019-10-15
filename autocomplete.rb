@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-`complete -o bashdefault -o default -o filenames -o nospace -C ~/betty/autocomplete.rb betty`
+#`complete -o bashdefault -o default -o filenames -o nospace -C ~/betty/autocomplete.rb betty`
 # This should be called only once upon installation, but it doesn't hurt if it gets called multiple times.
 
 if ARGV.length==0
