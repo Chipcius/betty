@@ -81,7 +81,8 @@ def help(command)
       #puts "I do know how to\n" + responses.map{|x| x[:category] + ":\t\t" + x[:usage].sample }.join("\n")
     end
   else
-    say "What can I help you with?"
+    userrName = `whoami`.strip.split.map(&:capitalize).join(' ')
+    say "Hi #{userrName}! What can I help you with?"
   end
 end
 
